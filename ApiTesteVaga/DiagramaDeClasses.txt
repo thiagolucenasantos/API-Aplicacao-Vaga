@@ -1,0 +1,16 @@
+Pessoa
+-----------------------------------
+- id: int
+- nomeCompleto: String
+- dataNascimento: LocalDate
+- enderecos: List<Endereco>
+- enderecoPrincipal: Endereco
+
+Endereco
+-----------------------------------
+- id: int
+- logradouro: String
+- cep: String
+- numero: String
+- cidade: String
+- estado: String
